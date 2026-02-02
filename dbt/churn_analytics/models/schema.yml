@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: "Customer dimension table"
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_churn
+    description: "Fact table for customer churn analysis"
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+
+      - name: churned
+        tests:
+          - accepted_values:
+              values: [0, 1]
