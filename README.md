@@ -29,7 +29,7 @@ Technologies used:
 5. Batch predictions are written back to Gold tables
 
 ## dbt Lineage
-![dbt lineage](images/dbt_lineage.png)
+![dbt lineage](images/dbt_dag.png)
 
 ## Limitations
 This project uses Databricks Community Edition, which does not support job scheduling or production clusters. Orchestration is simulated through notebook execution order and documentation.
