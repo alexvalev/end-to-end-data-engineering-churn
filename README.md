@@ -28,6 +28,9 @@ Technologies used:
 4. A machine learning model is trained and logged using MLflow
 5. Batch predictions are written back to Gold tables
 
+## dbt Lineage
+![dbt lineage](images/dbt_lineage.png)
+
 ## Limitations
 This project uses Databricks Community Edition, which does not support job scheduling or production clusters. Orchestration is simulated through notebook execution order and documentation.
 
@@ -38,3 +41,4 @@ See the folder structure for notebooks, dbt models, and documentation.
 - Add job orchestration using Databricks Jobs or Airflow
 - Deploy real-time inference API
 - Add CI/CD for dbt
+
