@@ -1,8 +1,9 @@
 version: 2
 
 sources:
-  - name: silver
+  - name: churn_analytics
     catalog: workspace
-    schema: default
+    schema: churn_analytics
+
     tables:
-      - name: silver_customers
+      - name: silver_customer_churn

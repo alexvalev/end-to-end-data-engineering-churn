@@ -32,5 +32,4 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   churn_analytics:
     +catalog: workspace
-    +schema: dbt_schema
 
