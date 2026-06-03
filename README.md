@@ -66,16 +66,12 @@ Technologies used:
 
 Two machine learning models were evaluated using Spark ML and tracked with MLflow.
 
-Model	Validation AUC	Holdout AUC
-Logistic Regression	0.9322	0.7880
-Random Forest	0.9700	0.7594
-
 ### Models Evaluated
 
 | Model | Validation AUC | Holdout AUC |
 |---------|---------:|---------:|
-| Logistic Regression | 0.9322 | 0.7880 |
-| Random Forest | 0.9700 | 0.7594 |
+| Logistic Regression | 0.9322 | 0.7885 |
+| Random Forest | 0.9719 | 0.7752 |
 
 ### Final Model
 
